@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header{
+    background-color: #594caf;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Main */
+
+main{
+    height: 100vh;
+
+}
+
+.hero{
+    background-image: url('../img/Imagen.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 40vh;
+}
+
+.hero h1{
+    margin: 0px 400px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #3333336b;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+}
+.Cards{
+    margin: 40px 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.Cards h2{
+    font-size: medium;
+    color: #594caf;
+    margin-bottom: 20px;
+}
